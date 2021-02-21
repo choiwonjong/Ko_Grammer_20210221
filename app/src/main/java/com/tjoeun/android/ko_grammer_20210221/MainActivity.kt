@@ -33,13 +33,13 @@ class MainActivity : AppCompatActivity() {
         okBtn.setOnClickListner {
             val inputMessage = messageEdit.text.ToString()
 
-         //   Toast.makeText(this, inputMessage, Toast.LENGTH_SHORT)
+            Toast.makeText(this, inputMessage.Text, Toast.LENGTH_SHORT).show()
 
             if (inputMessage == "안녕하세요"){
                 Log.d("메인화면", "인사문구 입력됨")
             }
             else{
-                Log.g("메인화면", "일반문구 입력됨")
+                Log.d("메인화면", "일반문구 입력됨")
             }
         }
     }

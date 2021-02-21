@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
         num2 = 10
     //    num2 = 20   //num2는 value(상수), 한번 대입하고나면 변경불가
 
+        val num3 = 30   //num3는 30이 int이므로 자동으로 Int
+        val num4 = 3.14 //num4는 Double이므로 자동으로 Double
+        val teacherName = "조경진"       // string 자동할당
+        val isMale = true               // Boolean자동할당
 
     }
 }
